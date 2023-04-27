@@ -1,0 +1,35 @@
+.error-page {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.error-page h1 {
+    text-align: center;
+    font-size: 288px;
+    font-weight: 700;
+    margin : 100px 0
+
+}
+
+.error-page h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.error-page a {
+    display: inline-block;
+    margin: 150px auto;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+
+
+
+}
+
+.error-page a:hover {
+    border-bottom: solid 2px #FF6060;
+    
+}
