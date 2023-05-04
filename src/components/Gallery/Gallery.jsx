@@ -1,6 +1,9 @@
 import Card from "../Card/Card"
 import "./Gallery.css"
 import cardList from "../../data/logements.json"
+import { Link } from "react-router-dom"
+
+
 
 function Gallery() {
 
@@ -8,8 +11,13 @@ function Gallery() {
         <div>
             <ul className="gallery">
                 {cardList.map( ({id, title, cover}) => {
+                    const housing = "/housing/"+id
                     return (
-                        <Card  key={id} title={title} cover={cover}/>
+                        <li key={id} >
+                            <Link to = {housing}>
+                            <Card  title={title} cover={cover}/>
+                            </Link>
+                        </li>
                     )
                 } )}
 

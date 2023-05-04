@@ -1,5 +1,5 @@
 import './Header.css'
-import { Outlet, Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import logo from"../../assets/logo.png"
 
 function Header() {
@@ -10,7 +10,7 @@ function Header() {
         <Link to="/">Accueil</Link>
         <Link to="/about">À propos</Link>
       </nav>
-      <Outlet />
+      
     </header>
   )
 }

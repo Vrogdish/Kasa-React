@@ -1,0 +1,13 @@
+.housing {
+    padding: 40px 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+.housing .collapses {
+    display: flex;
+    justify-content: center;
+    gap: 76px;
+}

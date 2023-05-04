@@ -1,0 +1,29 @@
+.summary {
+    
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+
+
+.host {
+    display: flex;
+    gap : 10px;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.host p {
+    width: 93px;
+    text-align: end;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.host img {
+    height: 64px;
+    width: 64px;
+    border-radius: 32px;
+
+}
