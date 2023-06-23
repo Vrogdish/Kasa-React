@@ -13,6 +13,7 @@ img {
 object-fit: cover;
 }
 
-/* body {
-    padding: 0px 100px;
-} */
+body {
+    max-width: 1920px;
+    margin: auto;
+}
