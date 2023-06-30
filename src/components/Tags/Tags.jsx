@@ -1,4 +1,4 @@
-import "./Tags.css"
+import "./Tags.scss"
 
 function Tags ({card}) {
     return (

@@ -1,4 +1,4 @@
-import './Summary.css'
+import './Summary.scss'
 import Tags from '../Tags/Tags'
 import Rating from '../Rating/Rating'
 

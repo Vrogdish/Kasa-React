@@ -1,5 +1,5 @@
 import { useParams } from 'react-router-dom'
-import './Housing.css'
+import './Housing.scss'
 import cardList from '../data/logements.json'
 import Collapse from '../components/Collapse/Collapse'
 import Carousel from '../components/Carousel/Carousel'
@@ -16,7 +16,7 @@ function Housing() {
       <Summary card={card} />
       <div className='collapses'>
         <Collapse title="Déscription" text={card.description} />
-        <Collapse title="Equipements" text={card.equipments.map((elem)=><li key={elem}>{elem}</li>)} />
+        <Collapse title="Equipements" text={card.equipments.map((elem,idx)=><li key={idx}>{elem}</li>)} />
       </div>
     </div>
   )

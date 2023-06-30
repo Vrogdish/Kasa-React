@@ -1,5 +1,5 @@
 import Card from "../Card/Card"
-import "./Gallery.css"
+import "./Gallery.scss"
 import cardList from "../../data/logements.json"
 import { Link } from "react-router-dom"
 

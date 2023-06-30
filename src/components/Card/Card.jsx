@@ -1,7 +1,7 @@
 
-import "./Card.css"
+import "./Card.scss"
 
-function Card ({id, title, cover}) {
+function Card ({title, cover}) {
    
     return (
         <div className="card">

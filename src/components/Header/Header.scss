@@ -1,0 +1,21 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 100px;
+  align-items: center;
+}
+
+.navbar {
+  font-size: 24px;
+  font-weight: 500;
+  display: flex;
+  gap: 57px;
+
+  & a {
+    border: solid 3px transparent;
+  }
+
+  & a:hover {
+    border-bottom: solid 3px #ff6060;
+  }
+}

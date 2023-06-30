@@ -1,6 +1,6 @@
 import Banner from '../components/Banner/Banner';
 import Gallery from '../components/Gallery/Gallery';
-import './Home.css';
+import './Home.scss';
 import bannerImage from "../assets/image1.jpg"
 
 function Home() {

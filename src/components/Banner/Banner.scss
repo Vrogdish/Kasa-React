@@ -1,22 +1,21 @@
 .banner {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-}
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
 
-.banner-image {
+  &-image {
     grid-row: 1;
     grid-column: 1;
     height: 223px;
     width: 100%;
     object-fit: cover;
     border-radius: 25px;
-}
+  }
 
-.banner-text {
+  &-text {
     grid-row: 1;
     grid-column: 1;
     margin: auto;
     color: white;
+  }
 }
-

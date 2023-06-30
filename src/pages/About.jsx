@@ -1,5 +1,5 @@
 import Banner from '../components/Banner/Banner'
-import './About.css'
+import './About.scss'
 import bannerImage from '../assets/image2.jpg'
 import Collapse from '../components/Collapse/Collapse'
 

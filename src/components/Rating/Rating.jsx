@@ -1,4 +1,4 @@
-import './Rating.css'
+import './Rating.scss'
 import star from '../../assets/star.png'
 import noStar from '../../assets/no-star.png'
 

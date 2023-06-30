@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import './Error.css'
+import './Error.scss'
 import Header from '../components/Header/Header'
 import Footer from '../components/Footer/Footer'
 

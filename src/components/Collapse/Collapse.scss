@@ -1,0 +1,51 @@
+.collapse {
+  width: 100%;
+  overflow: hidden;
+
+  &-title {
+    background-color: #ff6060;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 13px 20px;
+    border-radius: 5px;
+    position: relative;
+    // top: 10px;
+    cursor: pointer;
+    z-index: 10;
+
+    & h3 {
+      color: white;
+    }
+  }
+
+  &-text {
+    padding: 30px 20px 25px 20px;
+    background-color: #f6f6f6;
+    border-radius: 5px;
+   
+    
+  }
+}
+
+.collapse-text-up {
+    transform: translate(0,-100%);
+    transition: all ease-in-out 0.4s;
+    
+}
+
+.collapse-text-down {
+    transform: translate(0,-15px);
+    transition: all ease-in-out 0.4s;
+}
+
+.vector-up {
+  transform: rotate(0deg);
+  transition: all ease-in-out 0.4s;
+}
+
+.vector-down {
+  transform: rotate(-180deg);
+  transition: all ease-in-out 0.4s;
+}

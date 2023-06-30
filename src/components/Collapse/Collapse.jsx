@@ -1,37 +1,24 @@
 import { useState } from 'react'
-import './Collapse.css'
-import vectorUp from "../../assets/vector-up.png"
-import vectorDown from "../../assets/vector-down.png"
+import './Collapse.scss'
+import vectorUp from '../../assets/vector-up.png'
 
 
 function Collapse({ title, text }) {
   const [collapseIsOpen, setCollapse] = useState(false)
 
+  const handleClick = () => { collapseIsOpen ? setCollapse(false) : setCollapse(true)}
+
   return (
-    collapseIsOpen ? (
-        <div className='collapse'>
-            <div className='collapse-title'onClick={() => setCollapse(false)}>
-                <h3 >{title}</h3>
-                <img src={vectorUp}  alt = "up" />
-            </div>
-            <p className='collapse-text'>{text}</p>
+ 
 
-        </div>
-    ):(
-
-        <div className='collapse'>
-            <div className='collapse-title'onClick={() => setCollapse(true)}>
-                <h3 >{title}</h3>
-                <img src={vectorDown}  alt = "down" />
-            </div>
-        </div>
-
-    )
-
-  )}
-
-      
-    
-
+    <div className="collapse">
+      <div className="collapse-title" onClick={handleClick}>
+        <h3>{title}</h3>
+        <img src={vectorUp} alt="up" className={`${!collapseIsOpen?("vector-up"):("vector-down")}`} />
+      </div>
+      <p className={`collapse-text ${!collapseIsOpen? ("collapse-text-up") : ("collapse-text-down")}`}>{text}</p>
+    </div>
+  )
+}
 
 export default Collapse
