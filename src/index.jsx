@@ -1,25 +1,23 @@
-
-
 import ReactDOM from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import './index.scss'
 import Home from './pages/Home'
 import About from './pages/About'
 import Housing from './pages/Housing'
-import ErrorPage from './pages/Error'
+import ErrorPage from './pages/ErrorPage'
 import React from 'react'
 import Root from './pages/Root'
 
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <Root/>,
+    element: <Root />,
     errorElement: <ErrorPage />,
     children: [
-    {
-        path: "/",
-        element:<Home/>
-    },
+      {
+        path: '/',
+        element: <Home />,
+      },
       {
         path: '/about',
         element: <About />,
