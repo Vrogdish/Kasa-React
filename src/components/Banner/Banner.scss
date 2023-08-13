@@ -19,3 +19,13 @@
     color: white;
   }
 }
+
+@media (max-width : 768px) {
+  .banner-image {
+    border-radius: 0;
+  }
+
+  .banner-text {
+    padding: 20px;
+  }
+}

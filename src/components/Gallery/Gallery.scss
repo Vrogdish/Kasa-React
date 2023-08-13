@@ -10,3 +10,9 @@
     justify-content: center;
 
 }
+
+@media (max-width : 768px) {
+    .gallery {
+        border-radius: 0;
+    }
+}

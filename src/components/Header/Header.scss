@@ -19,3 +19,20 @@ header {
     border-bottom: solid 3px #ff6060;
   }
 }
+
+@media (max-width:768px) {
+  .logo{
+    height: 40px;
+  }
+
+  header {
+    padding: 40px 20px;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .navbar {
+    
+    font-size: 20px;
+  }
+}
